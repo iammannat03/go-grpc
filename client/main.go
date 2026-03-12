@@ -29,5 +29,7 @@ func main() {
 	}
 
 	// callSayHello(client)
-	callSayHelloServerStreaming(client, names)
+	// callSayHelloServerStreaming(client, names)
+	// callSayHelloClientStreaming(client, names)
+	callSayHelloBidirectionalStreaming(client, names)
 }
